@@ -86,7 +86,7 @@ function BenefitsSection() {
     {
       icon: "👨‍🏫",
       title: "Personalized Guidance from Experienced Tutors",
-      description: "One-on-one attention tailored to your child's learning style and pace."
+      description: "One-on-one attention tailored to your child&apos;s learning style and pace."
     },
     {
       icon: "💬",
@@ -198,7 +198,7 @@ function FAQSection() {
     },
     {
       question: "Do you offer trial classes?",
-      answer: "Yes! We offer a complimentary trial class so you can experience our teaching methods and see if we're the right fit for your child's learning needs."
+      answer: "Yes! We offer a complimentary trial class so you can experience our teaching methods and see if we&apos;re the right fit for your child&apos;s learning needs."
     },
     {
       question: "Are lessons conducted online or in-person?",
@@ -313,7 +313,7 @@ function CTAFormSection() {
             variants={fadeInUp}
             className="text-xl md:text-2xl text-orange-100 mb-12"
           >
-            Book a quick call and let's find the best learning plan for your child.
+            Book a quick call and let&apos;s find the best learning plan for your child.
           </motion.p>
 
           <motion.div variants={fadeInUp}>
@@ -326,7 +326,7 @@ function CTAFormSection() {
                 >
                   <div className="text-6xl mb-4">✅</div>
                   <h3 className="text-2xl font-bold text-green-600 mb-4">Thank You!</h3>
-                  <p className="text-gray-700">We'll be in touch within 24 hours to schedule your call.</p>
+                  <p className="text-gray-700">We&apos;ll be in touch within 24 hours to schedule your call.</p>
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
